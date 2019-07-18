@@ -1,6 +1,6 @@
 @extends('template.template_no_navbar')
 
-@section ("title", "MVPH: Register")
+@section ("title", "MVPH: Login")
 
 @section('content')
 <div class="container-fluid ml-0 mr-0 login" style="height:100vh; width: 100%">

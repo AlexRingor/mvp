@@ -315,7 +315,7 @@ class Controller extends BaseController
         $rejected = Post::where('status', "rejected")->get();
         // dd($article);
 
-        return view('pages.manage_post', compact ('article', 'approved', 'pending', 'rejected'));
+        return view('pages.manage_post', compact ('approved', 'pending', 'rejected'));
     }
 
     public function approvePost ($id) {
