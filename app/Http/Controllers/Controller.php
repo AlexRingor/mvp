@@ -116,7 +116,7 @@ class Controller extends BaseController
         // }
 
 
-        return view ('pages.video', compact('result', 'commentResult', 'replyResult'));
+        return view ('pages.video', compact('result', 'commentResult'));
 
     }
 
