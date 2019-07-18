@@ -56,3 +56,4 @@ Route::get('/admin/pendingPost/{id}', 'Controller@pendingPost');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+// test
