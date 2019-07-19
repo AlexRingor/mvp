@@ -23,7 +23,7 @@ class Controller extends BaseController
         // API2 = AIzaSyCXOy5gDqIjUjLBVV0AfFK9Oq7VesEoxbE
         // API3 = AIzaSyCc3GDZgmId-Dm-nP5zXqO6ga2q7ME0DvU
         // API4 = AIzaSyB9ObPqwcApMEiDuqApeqn2gKFXzzO7qkQ
-        // API5 = AIzaSyBfPyGnJiMoYY3A2AXWzca8I-2yMh-ZSu4
+        // API5 = AIzaSyBfPyGnJiMoYY3A2AXWzca8I-2yMh-ZSu4 = current
         
     public function landingPage () {
         $creator = User::where('role_id', 2)->get()->shuffle();
