@@ -21,7 +21,7 @@
 			<div class="row">
 				@foreach($result->items as $indiv_result)
 				
-				<div class="col-lg-4 mt-2 text-center">
+				<div class="col-lg-4 col-sm-6 mt-2 text-center">
 					@if(isset($indiv_result->id->videoId))
 					<a href="/video/{{$indiv_result->id->videoId}}">
 						<img class="img-fluid" src="{{$indiv_result->snippet->thumbnails->medium->url}}" alt="">

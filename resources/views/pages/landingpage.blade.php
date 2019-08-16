@@ -6,7 +6,7 @@
 
 <div class="container-fluid p-0">
 	<div class="row">
-		<div class="col-lg-8 p-0 mb-2" id="landingpage_scroll">
+		<div class="col-lg-8 col-sm-12 p-0 mb-2" id="landingpage_scroll">
 			
 			@foreach($json_result as $indiv_json_result)
 			@foreach ($indiv_json_result->items as $indiv)

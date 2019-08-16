@@ -16,7 +16,7 @@
 
 		<a href="{{url('login')}}">
 
-			<h1 class="text-center" style="color: #ffb700;">MotovloggersPH</h1>
+			<h1 class="text-center display-3" style="color: #ffb700;">MotovloggersPH</h1>
 		</a>
 		@endif
 		{{-- <h6 class="text-center" style="color: #ffb700;">ENTER</h6> --}}

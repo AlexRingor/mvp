@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <meta charset="UTF-8">
   {{-- GOOGLE FONTS --}}
@@ -10,7 +11,7 @@
   <link rel="stylesheet" href="{{asset('js/script.js')}}">
   <title>@yield("title")</title>
 </head>
-<body id="body">
+<body id="body over">
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a href="{{url('landingpage')}}"><img src="{{asset('images/logo.png')}}" alt=""></a>
   {{-- <a class="navbar-brand" href="{{url('landingpage')}}">MotovloggersPH{logo}</a> --}}
